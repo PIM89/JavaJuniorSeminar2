@@ -8,12 +8,6 @@ import java.util.Comparator;
 import java.util.List;
 
 public class TestProcessor {
-
-    /**
-     * Данный метод находит все void методы без аргументов в классе, и запускает их.
-     * <p>
-     * Для запуска создается тестовый объект с помощью конструктора без аргументов.
-     */
     public static void runTest(Class<?> testClass) {
         final Constructor<?> declaredConstructor;
         try {
